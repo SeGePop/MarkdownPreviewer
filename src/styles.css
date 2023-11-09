@@ -23,13 +23,7 @@ html {
   right: 30px;
   height: 200px;
 }
-#preview {
-  top: 350px;
-  bottom: auto;
-  left: 30px;
-  right: 30px;
-  height: 200px;
-}
+
 #editor_window h4 {
   display: block;
   margin: auto;
@@ -64,4 +58,11 @@ html {
 }
 h4 {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+#preview {
+  top: 350px;
+  bottom: auto;
+  left: 30px;
+  right: 30px;
+  height: auto;
 }

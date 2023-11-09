@@ -1,43 +1,25 @@
-export const editorText = `# Welcome to my React Markdown Previewer!
+export const editorText = `# This is an H1 heading
 
-## This is a sub-heading...
-### And here's some other cool stuff:
+## This is an H2 sub-heading
 
-Heres some code, \`<div></div>\`, between 2 backticks.
+Here is a [links](https://www.freecodecamp.org), and
+> Block Quotes!.
+
+You can use inline code like this: \`console.log('Hello, world!');\`.
+
+Here is a code block:
 
 \`\`\`
-// this is multi-line code:
-
-function anotherExample(firstLine, lastLine) {
-  if (firstLine == '\\\`\\\`\\\`' && lastLine == '\\\`\\\`\\\`') {
-    return multiLineCode;
-  }
-}
+function add(a, b) { return a + b; }
 \`\`\`
 
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+- This is a list item.
+- This is another list item.
 
-There's also links, and
-> Block Quotes!
+> This is a blockquote.
 
-And if you want to get really crazy, even tables:
+Here is an image:
 
-| Wild Header | Crazy Header | Another Header? |
-| ----------- | ------------ | --------------- |
-| Your content can | be here, and it | can be here.... |
-| And here. | Okay. | I think we get it. |
+![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
 
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
-
-
-1. And there are numbered lists too.
-1. Use just 1s if you want!
-1. And last but not least, let's not forget embedded images:
-
-!freeCodeCamp Logo`;
+You can make text **bold** like this.`;
